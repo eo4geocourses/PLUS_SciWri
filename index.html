@@ -119,7 +119,7 @@
 					<section > 
 						<h2>Space Assets</h2> 
 						<p>The peaceful use of Outer Space is a one of the great achievements of humankind. Today, there is an increasing
-							number of pivate commercial activites in Space. There three main <b>space assets</b>:</p>
+							number of pivate commercial activites in Space. There are three main <b>space assets</b>:</p>
 						<!-- AUTHORS: CREATE BULLETED LIST: --> 
 						<ul>
 							<li style="color:#89b3e479;"><p>Satellite Navigation (<b>SatNav</b>)</p></li>
@@ -399,6 +399,83 @@
 						<img width="650" height="350" data-src="https://eo4geo.sbg.ac.at/PLUS/Cop_Intro/C_AcadCapacity.jpg" alt="Copernicus Academy capacities">
 						<small>Engagement of Copernicus Academy members, as investigated in the <a href="www.cophub-ac.eu">CopHub.AC</a> project.</small>
 					</section>
+				</section>
+
+				<section >
+					<section >
+						<h2>Data & Information Access</h2>
+						<p>The Copernicus programme enables access to standardised <b>data and information products</b>. For this purpose, interoperable 
+						(geospatial) web services are key.</p>
+						<img width="800" height="400" data-src="https://eo4geo.sbg.ac.at/PLUS/Cop_Intro/C_DataInfo.jpg" alt="Data & Information">
+						<br><small>Data vs. information </small>
+					</section>
+					
+					<section>
+						<h2 style="color:#bbb7a8;">Interoperable Web Services and Specifications</h2>
+						<p>Web services as defined by the <b> Open Geospatial Consortium</b><a href="http://www.opengis.net/ogc">(OGC)</a> enable geospatial 
+							information to be sourced from the web, independent of the software environment or browser. Interoperable web services such as 
+							<b>WMS</b>, <b>WCS</b>, etc. are distinguished according to certain usage scenarios and related capabilities (viewing/background, analysis, etc.)</p>
+						<small>
+							<table>
+								<tr><td>Web service</td><td>Key command</td><td>Returns</td><td>Remark</td></tr>
+									<tr><td>Catalogue service for the web (<b>CSW</b>)</td><td>GetRecords or GetRecordById (by identifier, title, geographic extent, 
+										time period and free text, e.g. keywords)</td><td>XML metadata records or summary or count</td><td>INSPIRE discovery service</td></tr>
+								<tr><td>Web map service (<b>WMS</b>)</td><td>GetCapabilities</td><td>coloured images for visualization (JPEG, PNG, etc), at different zoom levels</td>
+									<td>for visualisation purposes or background layer </td></tr>
+								<tr><td>Web map tile service (<b>WMTS</b>)</td><td>GetCapabilities</td><td>same as WMS, but tiled (acting as a file cache)</td>
+									<td>for visualisation purposes (fast access)</td></tr>
+								<tr><td>Web coverage service (<b>WCS</b>)</td><td>GetCapabilities</td><td>multi-dimensional coverages (spatial / temporal raster subsets), in raster format (e.g. GeoTIFF) for analysis
+								</td><td>for analysis purposes</td></tr>
+							</table>
+							<br>OGC web services</small>
+						 <p>Other OGC efforts relate to <b>implementation standards</b> and specifications, e.g. <a href="https://www.ogc.org/standards/eo-geojson"><b>GeoJSON</b></a>
+							for EO dataset metadata encoding or the <b>Ordering Service Framework for EO products</b> <a href="https://www.ogc.org/standards/oseo">(OSEO)</a>.
+						 </p>
+					</section>
+					
+					<section>
+						<h2 style="color:#bbb7a8;">Example: SentinelHub (plug-in) for QGIS</h2>
+						<p>....</p>
+						<a href="sentinel-hub.com/develop/api/ogc/standard-parameters/"></a>
+						<img width="800" height="300" data-src="https://eo4geo.sbg.ac.at/PLUS/Cop_Intro/C_SentinelHub.png" alt="QGIS Sentinel Hub">
+						<small> ... </small>
+					
+					</section>
+
+					<section>
+						<h2 style="color:#bbb7a8;">Example: CLMS Global Land Monitoring product access</h2>
+						<p>Different products are <a href="https://land.copernicus.eu/global/access">accessible</a> including <b>Interactive notebooks</b>, <b>Web services</b>, <b>Virtual Machines</b>, <b>Manifest files</b>, etc.</p>
+						<img width="800" height="200" data-src="https://eo4geo.sbg.ac.at/PLUS/Cop_Intro/C_CLMS_access.png" alt="CLMS product access">
+						<small>Product channels of CLMS</small>
+					
+					</section>
+
+					<section>
+						<h2 style="color:#bbb7a8;">Example: C3S Climate Data Store </h2>
+						<p>The C3S Climate Data Store <a href="https://cds.climate.copernicus.eu/#!/home">(CDS)</a> provides an API for Phython-based 
+						data access</p>
+						<img width="800" height="400" data-src="https://eo4geo.sbg.ac.at/PLUS/Cop_Intro/C_C3S_DataStore.jpg" alt="C3S data store">
+						<br><small>C3S CDS</small>
+					
+					</section>
+
+					<section>
+						<h2 style="color:#bbb7a8;">Example: CAMS air quality maps</h2>
+						<p>CAMS provides services for continous monitoring the air quality in Europe and globally. 
+							The <a href="https://atmosphere.copernicus.eu/european-air-quality-information-support-covid-19-crisis">service</a> integrates satellite and ground-based observations and advanced numerical models air quality maps </p>
+						<img width="600" height="400" data-src="https://eo4geo.sbg.ac.at/PLUS/Cop_Intro/C_CAMS_Airqual.jpg" alt="CLMS WMS">
+						<br><small>Continous information products on air quality</small>
+					
+					</section>
+					
+					<!--<section>
+						<h2 style="color:#bbb7a8;">Example: CreoDIAS sample applications </h2>
+						<p>....</p>
+						<img width="800" height="300" data-src="https://eo4geo.sbg.ac.at/PLUS/Cop_Intro/C_CreoDIAS.png" alt="CreoDIAS sample applications">
+						<br><small> ... </small>
+					
+					</section>-->
+
 				</section>
 				
 				<!-- AUTHORS: CREATE YOUR LIST OF REFERENCES HERE: 
